@@ -39,7 +39,7 @@ public class Cursos{
 			foreignKey = @ForeignKey(foreignKeyDefinition = "foreign key (id_malla) references MallaCurricular(id_malla)")
 			
 			)
-	private Cursos cursos;
+	private MallaCurricular mallaCurricular;
 
 	public Integer getIdCurso() {
 		return idCurso;
